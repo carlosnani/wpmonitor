@@ -381,7 +381,7 @@ module.exports = function (app) {
       // Wp-Monitor
 
       app.get('/dashboardwp', isUserAllowed, function (req, res) {
-            res.locals = { title: 'Página de Teste' };
+            res.locals = { title: 'Dashboard' };
             res.render('dashboardwp');
       });
 
